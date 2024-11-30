@@ -3,7 +3,7 @@ import { Command, CommandRunner } from 'nest-commander';
 import { FileService } from './file.service';
 
 @Command({
-  name: 'hydrate',
+  name: 'parser',
   arguments: '[file]',
   description: 'Converts a file from JSON fromat to dev friendly format',
   argsDescription: {
